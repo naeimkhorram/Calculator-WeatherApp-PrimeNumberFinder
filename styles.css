@@ -1,0 +1,73 @@
+.calculator1{
+  color: black;
+    height: 100px;
+    width: 50px;
+    background-color: orchid;
+    margin-right: 20%;
+   padding: 10px;
+   border-radius: 20px;
+   text-decoration: none;
+   transition: 0.5s;
+   border: 4px #FFF1AF solid;
+  }
+  .calculator1:hover{
+       background: #E91E63;
+       transition: 0.5s;
+  }
+  .weatherApp{
+    color: black;
+    height: 100px;
+    width: 50px;
+    margin-right: 20%;
+    background-color: orange;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.5s;
+  border: 4px #FFF1AF solid;
+  }
+  .weatherApp:hover{
+     background: #E91E63;
+     transition: 0.5s;
+  }     
+  .primeNumber{
+    color: black;
+    height: 100px;
+    width: 50px;
+    margin-right: 5%;
+    background-color: orangered;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.5s;
+  border: 4px #FFF1AF solid;
+  }
+  
+  .primeNumber:hover{
+    background: #E91E63;
+    transition: 0.5s;
+  }
+  .row-div ul{
+    margin-left: 2.6rem;
+    text-align: center;
+    margin-top: 14rem;
+    margin-bottom: 4rem;
+    padding: 0;
+}
+
+.row-div ul li{
+  list-style: none;
+  display: inline;
+}
+
+.div2{
+  
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: antiquewhite;
+}
+body{
+  background-color: black;
+  margin: 0;
+}

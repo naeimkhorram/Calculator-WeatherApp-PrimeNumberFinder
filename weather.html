@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <img src="https://www.vmcdn.ca/f/files/via/images/weather/rain-umbrella-vancouver-weather.jpg;w=960" alt="weatherImage">
+    <label class="cityName" for="city">City Name:</label>
+    <div class="container">
+        <input class="input1" type="text" id="city"/>
+        <button class="button1" type="button" onclick="getCityInfo()">Result</button>
+    </div>
+
+    <div id="loading"></div>
+    <div class="tempBox">
+        <p><span class="CityName">City Name : </span><span id="myCity"></span></p>
+        <p><span class="Temp">Temp : </span><span id="temp"></span></p>
+        <p><span class="Weather1">Weather : </span><span id="weather"></span></p>
+        <p><span class="Wind">Wind : </span><span id="wind"></span></p>
+        <p><span class="Sunrise">Sunrise : </span><span id="sunrise"></span></p>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>

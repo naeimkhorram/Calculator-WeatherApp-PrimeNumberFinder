@@ -1,0 +1,55 @@
+.h4Prime{
+    margin-top: 8rem;
+    margin-left: 35%;
+    margin-right: 50%;
+    padding: 6px;
+    border-radius: 20px;
+    margin-bottom: 6px;
+    background-color: bisque;
+}
+
+.bodyPrime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input1{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10px;
+}
+.input2{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10px;
+}
+
+.button1{
+    background-color: aqua;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    transition: 0.5s;
+}
+.button1:hover{
+    color: aqua;
+    background-color: brown;
+    transition: 0.5s;
+    transition-delay: 0.5;
+}
+
+
+body{
+    background-color: #424874;
+}
+
+
+

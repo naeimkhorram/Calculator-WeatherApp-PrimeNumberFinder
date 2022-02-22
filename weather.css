@@ -1,0 +1,177 @@
+.container{
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 5px;
+    margin: 3rem 10rem;
+}
+
+.cityName{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: aqua;
+    padding: 7px;
+    border-radius: 20px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.input1{
+    border: none;
+    border-radius: 5px;
+   padding: 5px;
+   margin-top: 1em; 
+   margin-left: 40%;
+   margin-right: 40%;
+    margin-bottom: 1rem;
+}
+.button1{
+    margin-bottom: 10px;
+    margin-right: 42%;
+    margin-left: 42%;
+    color: azure;
+    background-color: indigo;
+    border: none;
+    padding: 1%;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.button1:hover{
+    color: aqua;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.tempBox{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color : #F6F6F6;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 36%;
+    margin-right: 36%;
+    display: none;
+}
+body{
+    background-color: #7267CB;
+}
+
+img{
+    border-radius: 40px;
+    margin-left: 46%;
+    width: 100px;
+}
+p {
+    margin-left: 7em;
+}
+
+.CityName {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: -10px;
+    border-radius: 20px;
+    padding: 5px;
+    color: black;
+    background-color: #E2C2B9;
+}
+#myCity {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #DD4A48;
+}
+
+.Temp{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: -10px;
+    border-radius: 20px;
+    padding: 5px;
+    color: black;
+    background-color: #E2C2B9;
+}
+#temp{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #F08A5D;
+}
+.Weather1{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: -10px;
+    border-radius: 20px;
+    padding: 5px;
+    color: black;
+    background-color: #E2C2B9;
+}
+
+#weather {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #DD4A48;
+}
+.Wind {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: -10px;
+    border-radius: 20px;
+    padding: 5px;
+    color: black;
+    background-color: #E2C2B9;
+}
+#wind {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #F08A5D;
+}
+.Sunrise {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: -10px;
+    border-radius: 20px;
+    padding: 5px;
+    color: black;
+    background-color: #E2C2B9;
+}
+#sunrise {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #DD4A48;
+}
+
+html {
+    height: 100%;
+  }
+  
+  body {
+    background-image: radial-gradient(circle farthest-corner at center, #3C4B57 0%, #1C262B 100%);
+  }
+  
+  #loading {
+    width: 2rem;
+    height: 2rem;
+    border: 5px solid #f3f3f3;
+    border-top: 6px solid #9c41f2;
+    border-radius: 100%;
+    margin: auto;
+    visibility: hidden;
+    animation: spin 1s infinite linear;
+}
+#loading.display {
+    visibility: visible;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
